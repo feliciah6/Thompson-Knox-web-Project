@@ -1,0 +1,37 @@
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  #header .header-content
+  {
+  	padding-top: 80px;
+  }
+  .counter-item p
+  {
+  		margin-bottom: 20px!important;
+  		font-size: 1.3em!important;
+  }
+  #header .page-header-overlay{
+        padding-top: 51px;
+        height: 200px;
+    }
+    .logbook-banner{
+        min-height: 147px!important;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #header .page-header-overlay{
+        padding-top: 120px;
+        height: 200px;
+    }
+    .logbook-banner{
+        min-height: 290px;
+    }
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+   #header .page-header-overlay{
+        padding-top: 130px;
+        height: 200px;
+    }
+}
+/* Large devices (large desktops, 1200px and up) */
